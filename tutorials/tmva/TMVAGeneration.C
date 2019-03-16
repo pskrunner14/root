@@ -110,7 +110,7 @@ int TMVAGeneration( TString myMethodList = "" )
    // Read training and test data
    // (it is also possible to use ASCII format as input -> see TMVA Users Guide)
    TFile *input(0);
-   TString fname = "~/root/tutorials/mnist.root";
+   TString fname = "./mnist.root";
    //if (!gSystem->AccessPathName( fname )) {
    input = TFile::Open( fname ); // check if file in local directory exists
    /*}
