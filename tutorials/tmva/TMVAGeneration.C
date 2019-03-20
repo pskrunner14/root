@@ -297,7 +297,7 @@ int TMVAGeneration( TString myMethodList = "" )
 
       // General Options.
       TString ganOptions ("!H:V:ErrorStrategy=CROSSENTROPY:VarTransform=N:"
-                          "WeightInitialization=XAVIERUNIFORM");
+                          "WeightInitialization=XAVIER");
 
       ganOptions.Append(":");
       ganOptions.Append(inputLayoutString);
